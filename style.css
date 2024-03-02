@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    /*degrade linear na angulação 287.56deg 
+    começando em 0% com a cor #C2E9FB 
+    e terminando em 100% na cor #A1C4FD*/
+    font-size: 1.6rem;
+
+    display: grid;/*Outra maneira para deixar o item no centro da tela*/
+    place-items: center;
+    height: 100vh;
+}
+
+body, button, input {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+}
+
+button{
+    background: #7879F1;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #5a5af2;
+    
+}
+
+.hide {
+    display: none;
+}
+
+main{
+    background: #FFFFFF;
+    box-shadow: 0 0.2rem .4rem rgba(0, 0, 0, 0.1);
+    /*eixo x = 0, eixo y = 2px, blur = 4px,
+     cor da sombra*/
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    margin-top: -12rem ;
+    
+    width: min(42.8rem, 90%);
+    /*a largura é 42.8rem 
+    se diminuir o tamanho da tela e ficar menos que 42.8rem
+    o main fica 90% da tela*/
+
+    text-align: center;
+
+}
+
+/*-------------screenOne-------------*/
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4rem;
+
+  margin-bottom: 1.6rem;
+}
+
+h1, p{
+    color: #34355B;
+}
+p{
+    opacity: .8;
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input{
+    background: #DCE2E9;
+    width: 7rem;
+}
+
+/*-------------screenTwo-------------*/
+h2{
+    font-size: 2.4rem;
+    font-weight: normal;
+
+    margin-bottom: 3.3rem;
+}
+
+.screenTwo button{
+    border-radius: .4rem;
+}
