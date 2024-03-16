@@ -2,7 +2,7 @@
 
 <p align="center">
 Programa exclusivo para estudo de tecnologias WEB.<br>
-<a href="https://gabrielliima2.github.io/JogoAdivinhacao/" target="_blank">Jogo da Adivinhação</a>
+<a href="https://gabrielliima2.github.io/JogoAdivinhacao/" target="_blank">Teste sua sorte no jogo da advinhção</a>
 </p>
 <div>
     <img src="https://img.hotimg.com/JogoAdivinhacao1.jpeg" alt="JogoAdivinhacao1.jpeg" border="0" />
